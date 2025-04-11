@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+
+    printf("Введите целое число: ");
+    scanf("%d", &a);
+
+    printf("Число %d является %s\n", a, (a % 2 * 2) == 0 ? "четным" : "нечетным");
+
+    return 0;
+}
